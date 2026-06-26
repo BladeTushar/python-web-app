@@ -5,6 +5,6 @@ I just added an optimized slim python img for this
 
 To Run this :
 
-docker build -t <img-name>:<version> .
+docker build -t python-web:latest .
 
-docker run -p <Host-Port>:8000 <Img-name>:<version>
+docker run -p 8001:8000 python-web:latest
